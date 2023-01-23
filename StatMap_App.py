@@ -215,13 +215,17 @@ def multi_ODA(df):
 
   return df_multi
 
+#Einlesen der Gesamtdatei:
 df_ges = pd.read_csv("df_ges.csv")
+#Einlesen imputed ODA:
+df_imputed = pd.read_csv("df_imputed.csv")
+df_imputed.loc[len(df_imputed)] = ["LDC-Anteile an Regionen", "2020", 0, "", "LDCs"]
 
 #Layout:
 app = Dash(external_stylesheets = [dbc.themes.LUX])
 
 #Dynamische Elemente:
-table_selector = dcc.Dropdown(options=["Bil. ODA nach Empfänger und Melder", "Bil. ODA nach Melder und Finanztyp", 
+table_selector = dcc.Dropdown(options=["Bil. ODA nach Empfänger und Melder", "Bil. ODA nach Melder und Finanztyp", "ODA an LDCs",
                               "Bil. ODA nach Empfänger und Förderbereich", "Bil. ODA nach Einkommensgruppe", "Multilaterale ODA nach Empfänger",
                               "Bil. ODA nach Förderbereich und Melder", "Bil. ODA Ranking nach Empfängern", "Mittelherkunft bi./multi. ODA"],
                              value="Tabelle auswählen", id = "tab_sec", style={"textAlign": "center"}, clearable=False)
@@ -239,10 +243,13 @@ filter_selector_country = dcc.Dropdown(options=df_ges["Recipient Name"].unique()
                              value="Empfänger auswählen", style={"textAlign": "center"}, clearable=True, multi = True)
 
 app.layout = dbc.Container([
+  dbc.Row([
+  html.Div(html.Img(src="logo.png", style={'height':'80%', 'width':'20%'}))], style={'textAlign': 'center'}),
+    
     dbc.Row([
       dbc.Col([dbc.Card(dbc.CardBody([
                html.H4("Aggregierte Tabellen:", className="card-title"),
-               table_selector,
+               table_selector, dbc.Badge(id = "text", className="text-wrap"),
              ]),
             ),
             ]),
@@ -260,6 +267,7 @@ app.layout = dbc.Container([
             ),
             ]),
     ]),
+
     dbc.Row([
         dash_table.DataTable(id="my_table",
         filter_action="native", sort_action="native", page_size= 30, style_cell={'textAlign': 'left'},
@@ -269,13 +277,14 @@ app.layout = dbc.Container([
 ])
 
 @app.callback(
-    [Output("my_table", 'data'), Output("my_table", "columns")],
+    [Output("text", "children"), Output("my_table", 'data'), Output("my_table", "columns")],
     [Input(table_selector, 'value'), Input(year_selector, 'value'), Input(row_selector, 'value'), 
     Input(filter_selector_agency, 'value'), Input(filter_selector_country, 'value')]
 )
 
 def get_table(table_selector, year_selector, row_selector, filter_selector_agency, filter_selector_country):
-
+  #Initialiere text-output:
+  text = ""
   #Bilden der Grunddatei falls nur ein Jahr ausgewählt wurde, ansonsten 2020 als Default nehmen:
   if (year_selector != "Jahr auswählen") & (5 > len(year_selector)):
     dat = df_ges[df_ges["YEAR"].isin(year_selector)]
@@ -306,6 +315,23 @@ def get_table(table_selector, year_selector, row_selector, filter_selector_agenc
       [continents, tab_instrument] = summe_region_continent(df_instrument)
       dat_sorted = order_continent_region(tab_instrument)
 
+    if table_selector == "ODA an LDCs":
+      df_ldcs = dat[dat["Income Group"] == "LDCs"]
+      #Nur übernehmen der Jahre nach denen gefiltert wurde:
+      years = df_ldcs["YEAR"].unique()
+      df_ldcs = pd.concat([df_ldcs, df_imputed[(df_imputed["Income Group"] == "LDCs") & (df_imputed["YEAR"].isin(years))]], axis = 0)  
+      #Zusammenfassen der Regionalanteile:
+      searchstring = [", regional", "Nicht aufteilbar"]
+      df_ldcs.loc[df_ldcs["Recipient Name"].str.contains('|'.join(searchstring)) == True, "Recipient Name"] = "LDC-Anteile an Regionen"
+      df_ldcs = df_ldcs.pivot_table(index = ["Recipient Name"], columns = ["Income Group", "YEAR"], aggfunc = "sum", values = "Value")
+      df_ldcs = df_ldcs.reset_index()
+      #Aufbrechen des Multi-Indexes in den Spaltennamen
+      df_ldcs.columns = df_ldcs.columns.map(('{0[1]}'.format))
+      dat_sorted = df_ldcs.reset_index()
+      #Löschen der Index-Spalte:
+      dat_sorted = dat_sorted.iloc[: , 1:]
+      text = "Enthält Summe aus imputed multilaterale ODA und bilateraler ODA"
+   
     if table_selector == "Bil. ODA nach Einkommensgruppe":
       df_einkommen = dat[dat["Bi/Multi"] == "Bilateral"].pivot_table(index = ["Recipient Name", "Region"], columns = "Income Group", aggfunc = "sum", values = "Value")
       df_einkommen = df_einkommen.reset_index()
@@ -358,9 +384,11 @@ def get_table(table_selector, year_selector, row_selector, filter_selector_agenc
       #Aufbrechen des Multi-Indexes in den Spaltennamen und Zusammenführen der Bezeichnung mit Leerzeichen: 
       df.columns = df.columns.map(('{0[0]} {0[1]}'.format))
       dat_sorted = df.reset_index()
+      #Löschen der Index-Spalte:
+      dat_sorted = dat_sorted.iloc[: , 1:]
 
   #Tabellen per User-Auswahl:
-  #Erster Fall multi ODA, da nur Filter nach Melder:
+  #Erster Fall multilaterale ODA, da nur Filter nach Melder:
   if (row_selector == "Bi-/Multilateral") & (ctx.triggered_id != "tab_sec"):
     if ctx.triggered_id == "fil_sec":
       dat = dat[dat["Melder"] == filter_selector_agency]
@@ -377,40 +405,37 @@ def get_table(table_selector, year_selector, row_selector, filter_selector_agenc
         dat = dat[dat["Melder"] == filter_selector_agency]
       else:  
         dat = dat[(dat["Melder"] == filter_selector_agency) & (dat["Recipient Name"].isin(filter_selector_country))]
-
+    #Tabelle nach Empfänger:
     if row_selector == "Empfänger":
       df = pd.pivot_table(dat[dat["Bi/Multi"] == "Bilateral"], index = "Recipient Name", columns = "YEAR", values = "Value", aggfunc = "sum")
       df = df.reset_index()    
       [continent, tab_empfanger_jahre] = summe_region_continent(df)
       dat_sorted = order_continent_region(tab_empfanger_jahre)
-
+    #Tabelle nach FBS:
     if (row_selector == "Förderbereichschlüssel") & (ctx.triggered_id != "tab_sec"):
       dat_sorted = pd.pivot_table(dat[dat["Bi/Multi"] == "Bilateral"], index = "Purpose Code", columns = "YEAR", values = "Value", aggfunc = "sum")
       dat_sorted = dat_sorted.reset_index()
-      #Sortieren nach Förderbereich:
       dat_sorted = dat_sorted.sort_values("Purpose Code")
       #Hinzufügen der Beschreibungen für die Förderbereiche:
       dat_sorted.insert(0, "Description", dat_sorted["Purpose Code"].map(dic_fbs_long))
-
+    #Tabelle nach FBS drei-Ziffrig:
     if (row_selector == "Förderbereichschlüssel (dreistellig)") & (ctx.triggered_id != "tab_sec"):
       [df_fbs1, df_fbs2, df_fbs3] = fbs_subcodes(dat[dat["Bi/Multi"] == "Bilateral"], "YEAR", "zeile")
       dat_sorted = pd.concat([df_fbs1, df_fbs2, df_fbs3], axis = 0)
       dat_sorted = dat_sorted.drop_duplicates(subset = ["DAC Untercode"])
-    
-      #Sortieren nach Förderbereich:
       dat_sorted = dat_sorted.sort_values("DAC Untercode")
       #Hinzufügen der Beschreibungen für die Förderbereiche:
       dat_sorted.insert(0, "Description", dat_sorted["DAC Untercode"].map(dic_fbs))
-
+    #Tabelle nach Melder (vereinfacht):
     if (row_selector == "Melder") & (ctx.triggered_id != "tab_sec"):
       df = pd.pivot_table(dat[dat["Bi/Multi"] == "Bilateral"], index = "Donor Agency", columns = "YEAR", values = "Value", aggfunc = "sum")
       dat_sorted = df.reset_index()
 
-
+  #Tabelle gemäß User-Input ausgeben:
   rows = dat_sorted.to_dict('rows')
   columns =  [{"name": str(i), "id": str(i),} for i in (dat_sorted.columns)]
 
-  return (rows, columns)
+  return (text, rows, columns)
 
 if __name__ == '__main__':
     app.run_server(debug=True)

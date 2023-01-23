@@ -83,7 +83,7 @@ def reader(string1, string2, string3):
     df_bil.loc[(df_bil["FinanceType Name"] == 611), "FinanceType Name"] = "Schuldenerlass"
     df_bil.loc[(df_bil["FinanceType Name"] == 610), "FinanceType Name"] = "Schuldenerlass"
 
-    # #Convert to EUR:
+    #Convert to EUR:
     df_bil.loc[df_bil["YEAR"] == 2018, "Value"] = df_bil.Value * 0.8473 
     df_bil.loc[df_bil["YEAR"] == 2019, "Value"] = df_bil.Value * 0.8933
     df_bil.loc[df_bil["YEAR"] == 2020, "Value"] = df_bil.Value * 0.8775
@@ -128,7 +128,38 @@ def reader_multi(string1, string2, string3):
 
   return df_multi
   
-df_bil = reader('CRS 2018 data.txt', 'CRS 2019 data.txt', 'CRS 2020 data.txt')
+def reader_imputed(string):
+   
+   df_imputed = pd.read_excel(string, skiprows=7)
+   df_imputed = df_imputed.reset_index()
+   #Drop index column and empty column:
+   df_imputed = df_imputed.drop(df_imputed.columns[[0, 2]], axis=1) 
+   #Change first column name:
+   df_imputed = df_imputed.rename(columns={'Year': 'RecipientName'})
+   #Replace nan with 0:
+   df_imputed = df_imputed.fillna(0)
+   #Change to long-format:
+   df_imputed = df_imputed.melt(id_vars="RecipientName")
+   df_imputed = df_imputed.rename(columns={'value': 'Value', "variable": "YEAR"})
+   #Remove space before recipients:
+   df_imputed["RecipientName"] = df_imputed["RecipientName"].str.lstrip()
+   #Map German recipient names and income groups:
+   df_imputed["Recipient Name"] = df_imputed["RecipientName"].map(keys_rec_deutsch)
+   df_imputed["Income Group"] = df_imputed["Recipient Name"].map(keys_inc)
+   #Keep only recipients without region totals and fill empty rows with 0:
+   df_imputed = df_imputed[df_imputed['Recipient Name'].notna()]
+   df_imputed["Value"] = pd.to_numeric(df_imputed["Value"], errors = "coerce").fillna(0)
+   #Convert to EUR:
+   df_imputed.loc[df_imputed["YEAR"] == "2018", "Value"] = df_imputed.Value * 0.8473 
+   df_imputed.loc[df_imputed["YEAR"] == "2019", "Value"] = df_imputed.Value * 0.8933
+   df_imputed.loc[df_imputed["YEAR"] == "2020", "Value"] = df_imputed.Value * 0.8775
+
+   #Add entry for regions to match in main dataframe:
+   df_imputed.loc[len(df_imputed)] = ["LDC-Anteile an Regionen", "2020", 0, "", "LDCs"]
+
+   return df_imputed
+
+df_bil = reader('CRS 2018 data.txt', 'CRS 2019 data.txt', 'CRS 2020 data.txt', 'CRS 2021 data.txt')
 df_multi = reader_multi("multi2018.csv", "multi2019.csv", "multi2020.csv")
 df_ges = pd.concat([df_bil, df_multi])
 df_ges = donor_short(df_ges)
@@ -136,4 +167,8 @@ df_ges = donor_short(df_ges)
 df_ges = df_ges[["Donor Agency", "Recipient Name", "Income Group", "YEAR", "Donor Project ID", "Project title", "Purpose Code", "Melder",
                   "Region", "Continent", "Bi/Multi", "Channel of Delivery Name", "Channel Category Name", "FinanceType Name", "Value"]]
 
+#Get imputed ODA table:
+df_imputed = reader_imputed("imputed_ODA.xlsx")
+
 df_ges.to_csv("df_ges.csv", index=False)
+df_imputed.to_csv("df_imputed.csv", index=False)

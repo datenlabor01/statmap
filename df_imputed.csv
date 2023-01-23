@@ -1,0 +1,661 @@
+RecipientName,YEAR,Value,Recipient Name,Income Group
+Albania,2018,32.63799600000001,Albanien,UMICs
+Belarus,2018,5.3210440000000006,Belarus,UMICs
+Bosnia and Herzegovina,2018,28.29982,Bosnien und Herzegovina,UMICs
+Kosovo,2018,23.775238,Kosovo,LMICs
+Moldova,2018,19.047304,Moldau,LMICs
+Montenegro,2018,24.037901,Montenegro,UMICs
+North Macedonia,2018,22.182314,Nordmazedonien,UMICs
+Serbia,2018,99.100208,Serbien,UMICs
+Türkiye,2018,279.736095,Türkei,UMICs
+Ukraine,2018,59.285581,Ukraine,LMICs
+"Europe, regional",2018,74.64713,"Europa, regional",Part I unallocated by income
+Algeria,2018,9.625328,Algerien,UMICs
+Egypt,2018,58.480646,Ägypten,LMICs
+Libya,2018,11.735105,Libyen,UMICs
+Morocco,2018,55.69302900000001,Marokko,LMICs
+Tunisia,2018,61.242844000000005,Tunesien,LMICs
+"North of Sahara, regional",2018,8.693298,"Nördlich der Sahara, regional",Part I unallocated by income
+Burundi,2018,21.004567,Burundi,LDCs
+Comoros,2018,4.075513,Komoren,LDCs
+Djibouti,2018,7.871417,Djibouti,LDCs
+Eritrea,2018,5.880262000000001,Eritrea,LDCs
+Ethiopia,2018,207.613919,Äthiopien,LDCs
+Kenya,2018,99.1341,Kenia,LMICs
+Madagascar,2018,35.044328,Madagaskar,LDCs
+Malawi,2018,38.848705,Malawi,LDCs
+Mauritius,2018,6.9478599999999995,Mauritius,UMICs
+Mozambique,2018,43.627477000000006,Mozambik,LDCs
+Rwanda,2018,57.472359000000004,Ruanda,LDCs
+Somalia,2018,49.634834000000005,Somalia,LDCs
+South Sudan,2018,22.555126,Südsudan,LDCs
+Sudan,2018,36.467792,Sudan,LDCs
+Tanzania,2018,87.729442,Tanzania,LDCs
+Uganda,2018,60.429435999999995,Uganda,LDCs
+Zambia,2018,35.798425,Sambia,LDCs
+Zimbabwe,2018,29.299634,Zimbabwe,Other LICs
+"Eastern Africa, regional",2018,0.0,"Ostafrika, regional",Part I unallocated by income
+Angola,2018,11.565645000000002,Angola,LDCs
+Cameroon,2018,37.137159000000004,Kamerun,LMICs
+Central African Republic,2018,36.916861000000004,Zentralafrikanische Republik,LDCs
+Chad,2018,45.474591000000004,Tschad,LDCs
+Congo,2018,7.769741000000001,Kongo,LMICs
+Democratic Republic of the Congo,2018,112.52144000000001,"Kongo, Demokratische Republik",LDCs
+Equatorial Guinea,2018,1.4912480000000001,Äquatorialguinea,UMICs
+Gabon,2018,1.575978,Gabun,UMICs
+Sao Tome and Principe,2018,3.3044700000000002,Sao Tome and Principe,LDCs
+"Middle Africa, regional",2018,0.0,"Zentralafrika, regional",Part I unallocated by income
+Botswana,2018,1.542086,Botswana,UMICs
+Eswatini,2018,4.710988,Eswatini,LMICs
+Lesotho,2018,7.396929000000001,Lesotho,LDCs
+Namibia,2018,12.404472000000002,Namibia,UMICs
+South Africa,2018,29.341999000000005,Südafrika,UMICs
+"Southern Africa, regional",2018,0.0,"Südliches Afrika, regional",Part I unallocated by income
+Benin,2018,26.808572,Benin,LDCs
+Burkina Faso,2018,71.359606,Burkina Faso,LDCs
+Cabo Verde,2018,3.1943210000000004,Cabo Verde,LMICs
+Côte d'Ivoire,2018,41.737998,Côte d'Ivoire,LMICs
+Gambia,2018,14.124491000000003,Gambia,LDCs
+Ghana,2018,38.026824000000005,Ghana,LMICs
+Guinea,2018,28.376077000000002,Guinea,LDCs
+Guinea-Bissau,2018,17.301866000000004,Guinea-Bissau,LDCs
+Liberia,2018,19.835293,Liberia,LDCs
+Mali,2018,63.827109,Mali,LDCs
+Mauritania,2018,19.521792,Mauritanien,LDCs
+Niger,2018,62.42059100000001,Niger,LDCs
+Nigeria,2018,129.933455,Nigeria,LMICs
+Saint Helena,2018,1.6946,Saint Helena,UMICs
+Senegal,2018,34.044514,Senegal,LDCs
+Sierra Leone,2018,19.513319000000003,Sierra Leone,LDCs
+Togo,2018,13.616111000000002,Togo,LDCs
+"Western Africa, regional",2018,0.0,"Westafrika, regional",Part I unallocated by income
+"South of Sahara, regional",2018,157.030109,"Südlich der Sahara, regional",Part I unallocated by income
+"Africa, regional",2018,172.442496,"Afrika, regional",Part I unallocated by income
+Antigua and Barbuda,2018,1.4488830000000001,Antigua and Barbuda,UMICs
+Cuba,2018,4.355122,Kuba,UMICs
+Dominica,2018,3.6688090000000004,Dominica,UMICs
+Dominican Republic,2018,9.972721,Dominikanische Republik,UMICs
+Grenada,2018,11.277563,Grenada,UMICs
+Haiti,2018,31.172167,Haiti,LDCs
+Jamaica,2018,6.990225000000001,Jamaika,UMICs
+Montserrat,2018,0.991341,Montserrat,UMICs
+Saint Lucia,2018,1.10149,Saint Lucia,UMICs
+Saint Vincent and the Grenadines,2018,1.4488830000000001,Saint Vincent and the Grenadines,UMICs
+"Caribbean, regional",2018,4.185662000000001,"Karibik, regional",Part I unallocated by income
+Belize,2018,3.6688090000000004,Belize,UMICs
+Costa Rica,2018,8.55773,Costa Rica,UMICs
+El Salvador,2018,15.615739000000001,El Salvador,LMICs
+Guatemala,2018,12.023187,Guatemala,LMICs
+Honduras,2018,15.581847000000002,Honduras,LMICs
+Mexico,2018,3.5247680000000003,Mexiko,UMICs
+Nicaragua,2018,11.701213000000001,Nicaragua,LMICs
+Panama,2018,4.041621,Panama,UMICs
+"Central America, regional",2018,0.0,"Zentralamerika, regional",Part I unallocated by income
+"Caribbean & Central America, regional",2018,8.235756,"Karibik und Zentralamerika, regional",Part I unallocated by income
+Argentina,2018,16.496931,Argentinien,UMICs
+Bolivia,2018,9.845626,Bolivien,LMICs
+Brazil,2018,15.310711000000001,Brasilien,UMICs
+Colombia,2018,21.165554,Kolumbien,UMICs
+Ecuador,2018,28.630267,Ecuador,UMICs
+Guyana,2018,7.574862,Guyana,UMICs
+Paraguay,2018,13.505962,Paraguay,UMICs
+Peru,2018,12.150282,Peru,UMICs
+Suriname,2018,0.9489760000000002,Suriname,UMICs
+Venezuela,2018,4.804191,Venezuela,UMICs
+"South America, regional",2018,17.759408,"Südamerika, regional",Part I unallocated by income
+"America, regional",2018,34.239393,"Amerika, regional",Part I unallocated by income
+Cambodia,2018,27.088181000000002,Kambodscha,LDCs
+China (People's Republic of),2018,33.90894600000001,China,UMICs
+Democratic People's Republic of Korea,2018,4.211081,"Korea, Demokratische Volksrepublik",Other LICs
+Indonesia,2018,12.7095,Indonesien,LMICs
+Lao People's Democratic Republic,2018,109.64909300000001,Laos,LDCs
+Malaysia,2018,0.9150840000000001,Malaysien,UMICs
+Mongolia,2018,20.114902,Mongolei,LMICs
+Philippines,2018,11.624956000000001,Philippinen,LMICs
+Thailand,2018,3.9907830000000004,Thailand,UMICs
+Timor-Leste,2018,3.397673,Timor-Leste,LDCs
+Viet Nam,2018,65.15737000000001,Vietnam,LMICs
+"Far East Asia, regional",2018,7.930728,"Ostasien, regional",Part I unallocated by income
+Afghanistan,2018,93.83000200000001,Afghanistan,LDCs
+Armenia,2018,11.60801,Armenien,LMICs
+Azerbaijan,2018,4.922813,Azerbaidschan,UMICs
+Bangladesh,2018,147.17601,Bangladesch,LDCs
+Bhutan,2018,6.981752,Bhutan,LDCs
+Georgia,2018,49.185765,Georgien,LMICs
+India,2018,147.489511,Indien,LMICs
+Kazakhstan,2018,1.575978,Kazakhstan,UMICs
+Kyrgyzstan,2018,14.463411,Kyrgyzstan,LMICs
+Maldives,2018,0.737151,Malediven,UMICs
+Myanmar,2018,38.221703000000005,Myanmar,LDCs
+Nepal,2018,50.524499000000006,Nepal,LDCs
+Pakistan,2018,68.48725900000001,Pakistan,LMICs
+Sri Lanka,2018,55.091446,Sri Lanka,LMICs
+Tajikistan,2018,17.403542,Tajikistan,LMICs
+Turkmenistan,2018,1.381099,Turkmenistan,UMICs
+Uzbekistan,2018,16.488458,Uzbekistan,LMICs
+"Central Asia, regional",2018,4.795718000000001,"Zentralasien, regional",Part I unallocated by income
+"South Asia, regional",2018,6.18529,"Südasien, regional",Part I unallocated by income
+"South & Central Asia, regional",2018,0.38975800000000005,"Süd- und Zentralasien, regional",Part I unallocated by income
+Iran,2018,3.2959970000000003,Iran,UMICs
+Iraq,2018,43.568166000000005,Irak,UMICs
+Jordan,2018,34.010622000000005,Jordanien,LMICs
+Lebanon,2018,32.11267,Libanon,UMICs
+Syrian Arab Republic,2018,85.49257000000001,Syrien,LMICs
+West Bank and Gaza Strip,2018,54.540701000000006,Palästinensische Gebiete,LMICs
+Yemen,2018,57.082601000000004,Jemen,LDCs
+"Middle East, regional",2018,9.642274,"Naher- und Mittlerer Osten, regional",Part I unallocated by income
+"Asia, regional",2018,17.183244000000002,"Asien, regional",Part I unallocated by income
+Fiji,2018,3.4654570000000002,Fidschi,UMICs
+Papua New Guinea,2018,21.428217,Papua New Guinea,LMICs
+Solomon Islands,2018,3.8552150000000003,Salomonen,LDCs
+Vanuatu,2018,2.431751,Vanuatu,LMICs
+"Melanesia, regional",2018,0.0,"Melanesien, regional",Part I unallocated by income
+Kiribati,2018,8.21881,Kiribati,LDCs
+Marshall Islands,2018,6.405588,Marshallinseln,UMICs
+Micronesia,2018,2.5757920000000003,"Mikronesien, regional",LMICs
+Nauru,2018,1.3217880000000002,Nauru,UMICs
+Palau,2018,0.22877100000000003,Palau,UMICs
+Cook Islands,2018,2.0928310000000003,Cookinseln,UMICs
+Niue,2018,0.33892000000000005,Niue,UMICs
+Samoa,2018,3.7620120000000004,Samoa,UMICs
+Tokelau,2018,0.008473000000000001,Tokelau,LMICs
+Tonga,2018,7.659592,Tonga,UMICs
+Tuvalu,2018,0.6778400000000001,Tuvalu,LDCs
+Wallis and Futuna,2018,2.135196,Wallis and Futuna,UMICs
+"Oceania, regional",2018,5.871789,"Ozeanien, regional",Part I unallocated by income
+"Developing countries, unspecified",2018,448.763972,Nicht aufteilbar,Part I unallocated by income
+Albania,2019,14.337465,Albanien,UMICs
+Belarus,2019,19.768729,Belarus,UMICs
+Bosnia and Herzegovina,2019,35.892794,Bosnien und Herzegovina,UMICs
+Kosovo,2019,28.255079,Kosovo,LMICs
+Moldova,2019,30.613391000000004,Moldau,LMICs
+Montenegro,2019,20.000987,Montenegro,UMICs
+North Macedonia,2019,18.384113999999997,Nordmazedonien,UMICs
+Serbia,2019,68.176656,Serbien,UMICs
+Türkiye,2019,278.048558,Türkei,UMICs
+Ukraine,2019,78.663998,Ukraine,LMICs
+"Europe, regional",2019,101.407416,"Europa, regional",Part I unallocated by income
+Algeria,2019,9.370717,Algerien,UMICs
+Egypt,2019,122.06051199999999,Ägypten,LMICs
+Libya,2019,16.213395,Libyen,UMICs
+Morocco,2019,93.867964,Marokko,LMICs
+Tunisia,2019,62.77219099999999,Tunesien,LMICs
+"North of Sahara, regional",2019,7.843173999999999,"Nördlich der Sahara, regional",Part I unallocated by income
+Burundi,2019,32.810908999999995,Burundi,LDCs
+Comoros,2019,5.824316,Komoren,LDCs
+Djibouti,2019,10.648136,Djibouti,LDCs
+Eritrea,2019,4.484366,Eritrea,LDCs
+Ethiopia,2019,125.32999000000001,Äthiopien,LDCs
+Kenya,2019,82.916106,Kenia,LMICs
+Madagascar,2019,29.934482999999997,Madagaskar,LDCs
+Malawi,2019,48.765247,Malawi,LDCs
+Mauritius,2019,5.609924,Mauritius,UMICs
+Mozambique,2019,54.071449,Mozambik,LDCs
+Rwanda,2019,37.465002,Ruanda,LDCs
+Somalia,2019,49.622814999999996,Somalia,LDCs
+South Sudan,2019,31.238701,Südsudan,LDCs
+Sudan,2019,27.397511,Sudan,LDCs
+Tanzania,2019,61.584101999999994,Tanzania,LDCs
+Uganda,2019,65.246632,Uganda,LDCs
+Zambia,2019,34.758303,Sambia,LDCs
+Zimbabwe,2019,29.318106,Zimbabwe,Other LICs
+"Eastern Africa, regional",2019,0.661042,"Ostafrika, regional",Part I unallocated by income
+Angola,2019,13.810418,Angola,LDCs
+Cameroon,2019,39.912644,Kamerun,LMICs
+Central African Republic,2019,34.668973,Zentralafrikanische Republik,LDCs
+Chad,2019,29.076914999999996,Tschad,LDCs
+Congo,2019,10.121089,Kongo,LMICs
+Democratic Republic of the Congo,2019,93.09079299999999,"Kongo, Demokratische Republik",LDCs
+Equatorial Guinea,2019,0.696774,Äquatorialguinea,UMICs
+Gabon,2019,2.036724,Gabun,UMICs
+Sao Tome and Principe,2019,2.492307,Sao Tome and Principe,LDCs
+"Middle Africa, regional",2019,0.0,"Zentralafrika, regional",Part I unallocated by income
+Botswana,2019,2.9478899999999997,Botswana,UMICs
+Eswatini,2019,4.046649,Eswatini,LMICs
+Lesotho,2019,8.700742,Lesotho,LDCs
+Namibia,2019,5.377666,Namibia,UMICs
+South Africa,2019,33.856069999999995,Südafrika,UMICs
+"Southern Africa, regional",2019,1.2506199999999998,"Südliches Afrika, regional",Part I unallocated by income
+Benin,2019,22.984609,Benin,LDCs
+Burkina Faso,2019,49.542418,Burkina Faso,LDCs
+Cabo Verde,2019,8.254092,Cabo Verde,LMICs
+Côte d'Ivoire,2019,36.929022,Côte d'Ivoire,LMICs
+Gambia,2019,14.230269,Gambia,LDCs
+Ghana,2019,27.924558,Ghana,LMICs
+Guinea,2019,29.335972,Guinea,LDCs
+Guinea-Bissau,2019,8.137963,Guinea-Bissau,LDCs
+Liberia,2019,20.411905,Liberia,LDCs
+Mali,2019,61.05705499999999,Mali,LDCs
+Mauritania,2019,17.222824,Mauritanien,LDCs
+Niger,2019,60.369214,Niger,LDCs
+Nigeria,2019,105.873916,Nigeria,LMICs
+Saint Helena,2019,0.008933,Saint Helena,UMICs
+Senegal,2019,41.190063,Senegal,LDCs
+Sierra Leone,2019,26.021829,Sierra Leone,LDCs
+Togo,2019,17.571211,Togo,LDCs
+"Western Africa, regional",2019,2.59057,"Westafrika, regional",Part I unallocated by income
+"South of Sahara, regional",2019,232.177603,"Südlich der Sahara, regional",Part I unallocated by income
+"Africa, regional",2019,126.08036199999998,"Afrika, regional",Part I unallocated by income
+Antigua and Barbuda,2019,3.689329,Antigua and Barbuda,UMICs
+Cuba,2019,5.368733,Kuba,UMICs
+Dominica,2019,2.804962,Dominica,UMICs
+Dominican Republic,2019,10.130022,Dominikanische Republik,UMICs
+Grenada,2019,0.562779,Grenada,UMICs
+Haiti,2019,17.910665,Haiti,LDCs
+Jamaica,2019,3.778659,Jamaika,UMICs
+Montserrat,2019,0.732506,Montserrat,UMICs
+Saint Lucia,2019,0.946898,Saint Lucia,UMICs
+Saint Vincent and the Grenadines,2019,2.268982,Saint Vincent and the Grenadines,UMICs
+"Caribbean, regional",2019,10.585605,"Karibik, regional",Part I unallocated by income
+Belize,2019,1.563275,Belize,UMICs
+Costa Rica,2019,2.286848,Costa Rica,UMICs
+El Salvador,2019,7.128534,El Salvador,LMICs
+Guatemala,2019,9.585109000000001,Guatemala,LMICs
+Honduras,2019,13.890815,Honduras,LMICs
+Mexico,2019,6.467492,Mexiko,UMICs
+Nicaragua,2019,10.54094,Nicaragua,LMICs
+Panama,2019,3.12655,Panama,UMICs
+"Central America, regional",2019,0.080397,"Zentralamerika, regional",Part I unallocated by income
+"Caribbean & Central America, regional",2019,10.826796,"Karibik und Zentralamerika, regional",Part I unallocated by income
+Argentina,2019,7.566251,Argentinien,UMICs
+Bolivia,2019,14.712651,Bolivien,LMICs
+Brazil,2019,10.031759000000001,Brasilien,UMICs
+Colombia,2019,22.564758,Kolumbien,UMICs
+Ecuador,2019,19.456074,Ecuador,UMICs
+Guyana,2019,2.081389,Guyana,UMICs
+Paraguay,2019,5.27047,Paraguay,UMICs
+Peru,2019,8.0397,Peru,UMICs
+Suriname,2019,1.134491,Suriname,UMICs
+Venezuela,2019,11.327043999999999,Venezuela,UMICs
+"South America, regional",2019,9.540443999999999,"Südamerika, regional",Part I unallocated by income
+"America, regional",2019,13.810418,"Amerika, regional",Part I unallocated by income
+Cambodia,2019,17.142427,Kambodscha,LDCs
+China (People's Republic of),2019,30.005947000000003,China,UMICs
+Democratic People's Republic of Korea,2019,3.162282,"Korea, Demokratische Volksrepublik",Other LICs
+Indonesia,2019,46.612394,Indonesien,LMICs
+Lao People's Democratic Republic,2019,14.033743000000001,Laos,LDCs
+Malaysia,2019,1.688337,Malaysien,UMICs
+Mongolia,2019,5.431264,Mongolei,LMICs
+Philippines,2019,16.132997999999997,Philippinen,LMICs
+Thailand,2019,3.251612,Thailand,UMICs
+Timor-Leste,2019,4.296773,Timor-Leste,LDCs
+Viet Nam,2019,29.309173,Vietnam,LMICs
+"Far East Asia, regional",2019,9.808434,"Ostasien, regional",Part I unallocated by income
+Afghanistan,2019,89.41932999999999,Afghanistan,LDCs
+Armenia,2019,8.120097,Armenien,LMICs
+Azerbaijan,2019,4.797021,Azerbaidschan,UMICs
+Bangladesh,2019,108.160764,Bangladesch,LDCs
+Bhutan,2019,4.725557,Bhutan,LDCs
+Georgia,2019,38.885349,Georgien,LMICs
+India,2019,142.168695,Indien,LMICs
+Kazakhstan,2019,4.180644,Kazakhstan,UMICs
+Kyrgyzstan,2019,11.300245,Kyrgyzstan,LMICs
+Maldives,2019,1.107692,Malediven,UMICs
+Myanmar,2019,37.089816,Myanmar,LDCs
+Nepal,2019,27.013392,Nepal,LDCs
+Pakistan,2019,58.386088,Pakistan,LMICs
+Sri Lanka,2019,9.522578,Sri Lanka,LMICs
+Tajikistan,2019,13.104711,Tajikistan,LMICs
+Turkmenistan,2019,1.375682,Turkmenistan,UMICs
+Uzbekistan,2019,15.909672999999998,Uzbekistan,LMICs
+"Central Asia, regional",2019,9.656573,"Zentralasien, regional",Part I unallocated by income
+"South Asia, regional",2019,4.296773,"Südasien, regional",Part I unallocated by income
+"South & Central Asia, regional",2019,0.6521089999999999,"Süd- und Zentralasien, regional",Part I unallocated by income
+Iran,2019,5.154341,Iran,UMICs
+Iraq,2019,40.520088,Irak,UMICs
+Jordan,2019,37.688326999999994,Jordanien,LMICs
+Lebanon,2019,27.951356999999998,Libanon,UMICs
+Syrian Arab Republic,2019,75.894768,Syrien,LMICs
+West Bank and Gaza Strip,2019,52.722566,Palästinensische Gebiete,LMICs
+Yemen,2019,66.354324,Jemen,LDCs
+"Middle East, regional",2019,14.239201999999999,"Naher- und Mittlerer Osten, regional",Part I unallocated by income
+"Asia, regional",2019,9.924563,"Asien, regional",Part I unallocated by income
+Fiji,2019,3.3320089999999998,Fidschi,UMICs
+Papua New Guinea,2019,13.345901999999999,Papua New Guinea,LMICs
+Solomon Islands,2019,3.260545,Salomonen,LDCs
+Vanuatu,2019,2.215384,Vanuatu,LMICs
+"Melanesia, regional",2019,0.0,"Melanesien, regional",Part I unallocated by income
+Kiribati,2019,0.6253099999999999,Kiribati,LDCs
+Marshall Islands,2019,0.786104,Marshallinseln,UMICs
+Micronesia,2019,0.553846,"Mikronesien, regional",LMICs
+Nauru,2019,0.116129,Nauru,UMICs
+Palau,2019,0.142928,Palau,UMICs
+Cook Islands,2019,0.393052,Cookinseln,UMICs
+Niue,2019,0.098263,Niue,UMICs
+Samoa,2019,4.573696,Samoa,UMICs
+Tokelau,2019,0.017866,Tokelau,LMICs
+Tonga,2019,0.866501,Tonga,UMICs
+Tuvalu,2019,0.35732,Tuvalu,LDCs
+Wallis and Futuna,2019,0.17866,Wallis and Futuna,UMICs
+"Oceania, regional",2019,8.781139,"Ozeanien, regional",Part I unallocated by income
+"Developing countries, unspecified",2019,406.397902,Nicht aufteilbar,Part I unallocated by income
+Albania,2020,19.18215,Albanien,UMICs
+Belarus,2020,24.23655,Belarus,UMICs
+Bosnia and Herzegovina,2020,36.94275,Bosnien und Herzegovina,UMICs
+Kosovo,2020,37.486799999999995,Kosovo,LMICs
+Moldova,2020,40.549275,Moldau,LMICs
+Montenegro,2020,29.878874999999997,Montenegro,UMICs
+North Macedonia,2020,35.5563,Nordmazedonien,UMICs
+Serbia,2020,55.86164999999999,Serbien,UMICs
+Türkiye,2020,192.78674999999998,Türkei,UMICs
+Ukraine,2020,225.62279999999998,Ukraine,LMICs
+"Europe, regional",2020,78.439725,"Europa, regional",Part I unallocated by income
+Algeria,2020,12.135824999999999,Algerien,UMICs
+Egypt,2020,125.76329999999999,Ägypten,LMICs
+Libya,2020,9.327825,Libyen,UMICs
+Morocco,2020,151.33365,Marokko,LMICs
+Tunisia,2020,66.172275,Tunesien,LMICs
+"North of Sahara, regional",2020,22.937849999999997,"Nördlich der Sahara, regional",Part I unallocated by income
+Burundi,2020,27.360449999999997,Burundi,LDCs
+Comoros,2020,5.493149999999999,Komoren,LDCs
+Djibouti,2020,9.538424999999998,Djibouti,LDCs
+Eritrea,2020,5.3264249999999995,Eritrea,LDCs
+Ethiopia,2020,141.75134999999997,Äthiopien,LDCs
+Kenya,2020,96.463575,Kenia,LMICs
+Madagascar,2020,41.25127499999999,Madagaskar,LDCs
+Malawi,2020,55.379025,Malawi,LDCs
+Mauritius,2020,4.589325,Mauritius,UMICs
+Mozambique,2020,84.722625,Mozambik,LDCs
+Rwanda,2020,46.375875,Ruanda,LDCs
+Somalia,2020,60.187725,Somalia,LDCs
+South Sudan,2020,32.739525,Südsudan,LDCs
+Sudan,2020,51.123149999999995,Sudan,LDCs
+Tanzania,2020,80.738775,Tanzania,LDCs
+Uganda,2020,87.35512499999999,Uganda,LDCs
+Zambia,2020,32.967675,Sambia,LDCs
+Zimbabwe,2020,48.982049999999994,Zimbabwe,Other LICs
+"Eastern Africa, regional",2020,16.145999999999997,"Ostafrika, regional",Part I unallocated by income
+Angola,2020,13.3029,Angola,LDCs
+Cameroon,2020,38.250225,Kamerun,LMICs
+Central African Republic,2020,39.5226,Zentralafrikanische Republik,LDCs
+Chad,2020,45.042075,Tschad,LDCs
+Congo,2020,10.328175,Kongo,LMICs
+Democratic Republic of the Congo,2020,113.873175,"Kongo, Demokratische Republik",LDCs
+Equatorial Guinea,2020,0.8423999999999999,Äquatorialguinea,UMICs
+Gabon,2020,2.808,Gabun,UMICs
+Sao Tome and Principe,2020,4.378725,Sao Tome and Principe,LDCs
+"Middle Africa, regional",2020,0.342225,"Zentralafrika, regional",Part I unallocated by income
+Botswana,2020,3.0888,Botswana,UMICs
+Eswatini,2020,6.405749999999999,Eswatini,LMICs
+Lesotho,2020,10.152675,Lesotho,LDCs
+Namibia,2020,8.502975,Namibia,UMICs
+South Africa,2020,42.2604,Südafrika,UMICs
+"Southern Africa, regional",2020,0.61425,"Südliches Afrika, regional",Part I unallocated by income
+Benin,2020,37.065599999999996,Benin,LDCs
+Burkina Faso,2020,66.28635,Burkina Faso,LDCs
+Cabo Verde,2020,7.493849999999999,Cabo Verde,LMICs
+Côte d'Ivoire,2020,48.104549999999996,Côte d'Ivoire,LMICs
+Gambia,2020,17.102475,Gambia,LDCs
+Ghana,2020,50.851124999999996,Ghana,LMICs
+Guinea,2020,24.3945,Guinea,LDCs
+Guinea-Bissau,2020,9.257625,Guinea-Bissau,LDCs
+Liberia,2020,19.980674999999998,Liberia,LDCs
+Mali,2020,51.412725,Mali,LDCs
+Mauritania,2020,20.72655,Mauritanien,LDCs
+Niger,2020,74.26282499999999,Niger,LDCs
+Nigeria,2020,114.12764999999999,Nigeria,LMICs
+Saint Helena,2020,1.35135,Saint Helena,UMICs
+Senegal,2020,49.26285,Senegal,LDCs
+Sierra Leone,2020,32.1516,Sierra Leone,LDCs
+Togo,2020,22.823775,Togo,LDCs
+"Western Africa, regional",2020,5.019299999999999,"Westafrika, regional",Part I unallocated by income
+"South of Sahara, regional",2020,121.78822499999998,"Südlich der Sahara, regional",Part I unallocated by income
+"Africa, regional",2020,239.78564999999998,"Afrika, regional",Part I unallocated by income
+Antigua and Barbuda,2020,3.21165,Antigua and Barbuda,UMICs
+Cuba,2020,8.906625,Kuba,UMICs
+Dominica,2020,1.605825,Dominica,UMICs
+Dominican Republic,2020,8.643374999999999,Dominikanische Republik,UMICs
+Grenada,2020,1.17585,Grenada,UMICs
+Haiti,2020,27.6588,Haiti,LDCs
+Jamaica,2020,4.96665,Jamaika,UMICs
+Montserrat,2020,0.7546499999999999,Montserrat,UMICs
+Saint Lucia,2020,1.553175,Saint Lucia,UMICs
+Saint Vincent and the Grenadines,2020,1.5268499999999998,Saint Vincent and the Grenadines,UMICs
+"Caribbean, regional",2020,9.345374999999999,"Karibik, regional",Part I unallocated by income
+Belize,2020,1.6760249999999999,Belize,UMICs
+Costa Rica,2020,7.818524999999999,Costa Rica,UMICs
+El Salvador,2020,6.0108749999999995,El Salvador,LMICs
+Guatemala,2020,12.328875,Guatemala,LMICs
+Honduras,2020,17.225324999999998,Honduras,LMICs
+Mexico,2020,24.613875,Mexiko,UMICs
+Nicaragua,2020,15.514199999999999,Nicaragua,LMICs
+Panama,2020,5.028075,Panama,UMICs
+"Central America, regional",2020,1.0793249999999999,"Zentralamerika, regional",Part I unallocated by income
+"Caribbean & Central America, regional",2020,4.519125,"Karibik und Zentralamerika, regional",Part I unallocated by income
+Argentina,2020,15.014024999999998,Argentinien,UMICs
+Bolivia,2020,10.187774999999998,Bolivien,LMICs
+Brazil,2020,41.865525,Brasilien,UMICs
+Colombia,2020,24.982425,Kolumbien,UMICs
+Ecuador,2020,14.952599999999999,Ecuador,UMICs
+Guyana,2020,2.290275,Guyana,UMICs
+Paraguay,2020,11.003849999999998,Paraguay,UMICs
+Peru,2020,12.723749999999999,Peru,UMICs
+Suriname,2020,1.307475,Suriname,UMICs
+Venezuela,2020,9.477,Venezuela,UMICs
+"South America, regional",2020,13.338,"Südamerika, regional",Part I unallocated by income
+"America, regional",2020,14.276924999999999,"Amerika, regional",Part I unallocated by income
+Cambodia,2020,26.851499999999998,Kambodscha,LDCs
+China (People's Republic of),2020,36.855,China,UMICs
+Democratic People's Republic of Korea,2020,4.870125,"Korea, Demokratische Volksrepublik",Other LICs
+Indonesia,2020,34.450649999999996,Indonesien,LMICs
+Lao People's Democratic Republic,2020,9.8631,Laos,LDCs
+Malaysia,2020,2.1937499999999996,Malaysien,UMICs
+Mongolia,2020,14.829749999999997,Mongolei,LMICs
+Philippines,2020,22.0779,Philippinen,LMICs
+Thailand,2020,8.204625,Thailand,UMICs
+Timor-Leste,2020,5.791499999999999,Timor-Leste,LDCs
+Viet Nam,2020,42.848324999999996,Vietnam,LMICs
+"Far East Asia, regional",2020,17.207774999999998,"Ostasien, regional",Part I unallocated by income
+Afghanistan,2020,82.5201,Afghanistan,LDCs
+Armenia,2020,21.279374999999998,Armenien,LMICs
+Azerbaijan,2020,5.3527499999999995,Azerbaidschan,UMICs
+Bangladesh,2020,103.42214999999999,Bangladesch,LDCs
+Bhutan,2020,6.65145,Bhutan,LDCs
+Georgia,2020,68.523975,Georgien,LMICs
+India,2020,111.7584,Indien,LMICs
+Kazakhstan,2020,4.22955,Kazakhstan,UMICs
+Kyrgyzstan,2020,14.65425,Kyrgyzstan,LMICs
+Maldives,2020,4.554225,Malediven,UMICs
+Myanmar,2020,53.887274999999995,Myanmar,LDCs
+Nepal,2020,28.352025,Nepal,LDCs
+Pakistan,2020,95.20875,Pakistan,LMICs
+Sri Lanka,2020,14.154074999999999,Sri Lanka,LMICs
+Tajikistan,2020,12.697424999999999,Tajikistan,LMICs
+Turkmenistan,2020,1.7813249999999998,Turkmenistan,UMICs
+Uzbekistan,2020,25.895025,Uzbekistan,LMICs
+"Central Asia, regional",2020,4.914,"Zentralasien, regional",Part I unallocated by income
+"South Asia, regional",2020,3.1940999999999997,"Südasien, regional",Part I unallocated by income
+"South & Central Asia, regional",2020,0.008775,"Süd- und Zentralasien, regional",Part I unallocated by income
+Iran,2020,5.923125,Iran,UMICs
+Iraq,2020,38.65387499999999,Irak,UMICs
+Jordan,2020,72.665775,Jordanien,LMICs
+Lebanon,2020,28.088775,Libanon,UMICs
+Syrian Arab Republic,2020,51.342524999999995,Syrien,LMICs
+West Bank and Gaza Strip,2020,52.658775,Palästinensische Gebiete,LMICs
+Yemen,2020,45.08595,Jemen,LDCs
+"Middle East, regional",2020,10.9512,"Naher- und Mittlerer Osten, regional",Part I unallocated by income
+"Asia, regional",2020,15.865199999999998,"Asien, regional",Part I unallocated by income
+Fiji,2020,8.02035,Fidschi,UMICs
+Papua New Guinea,2020,11.117925,Papua New Guinea,LMICs
+Solomon Islands,2020,2.430675,Salomonen,LDCs
+Vanuatu,2020,2.8957499999999996,Vanuatu,LMICs
+"Melanesia, regional",2020,0.5440499999999999,"Melanesien, regional",Part I unallocated by income
+Kiribati,2020,1.1232,Kiribati,LDCs
+Marshall Islands,2020,0.4563,Marshallinseln,UMICs
+Micronesia,2020,2.413125,"Mikronesien, regional",LMICs
+Nauru,2020,0.01755,Nauru,UMICs
+Palau,2020,0.131625,Palau,UMICs
+Cook Islands,2020,0.0,Cookinseln,UMICs
+Niue,2020,0.351,Niue,UMICs
+Samoa,2020,1.7198999999999998,Samoa,UMICs
+Tokelau,2020,0.01755,Tokelau,LMICs
+Tonga,2020,1.9041749999999997,Tonga,UMICs
+Tuvalu,2020,0.6054749999999999,Tuvalu,LDCs
+Wallis and Futuna,2020,1.4303249999999998,Wallis and Futuna,UMICs
+"Oceania, regional",2020,10.54755,"Ozeanien, regional",Part I unallocated by income
+"Developing countries, unspecified",2020,426.34215,Nicht aufteilbar,Part I unallocated by income
+Albania,2021,65.28,Albanien,UMICs
+Belarus,2021,6.29,Belarus,UMICs
+Bosnia and Herzegovina,2021,70.16,Bosnien und Herzegovina,UMICs
+Kosovo,2021,36.53,Kosovo,LMICs
+Moldova,2021,61.95,Moldau,LMICs
+Montenegro,2021,27.16,Montenegro,UMICs
+North Macedonia,2021,51.95,Nordmazedonien,UMICs
+Serbia,2021,91.42,Serbien,UMICs
+Türkiye,2021,352.09,Türkei,UMICs
+Ukraine,2021,211.5,Ukraine,LMICs
+"Europe, regional",2021,86.29,"Europa, regional",Part I unallocated by income
+Algeria,2021,7.91,Algerien,UMICs
+Egypt,2021,405.7,Ägypten,LMICs
+Libya,2021,16.61,Libyen,UMICs
+Morocco,2021,96.23,Marokko,LMICs
+Tunisia,2021,112.49,Tunesien,LMICs
+"North of Sahara, regional",2021,39.23,"Nördlich der Sahara, regional",Part I unallocated by income
+Burundi,2021,30.47,Burundi,LDCs
+Comoros,2021,6.0,Komoren,LDCs
+Djibouti,2021,8.73,Djibouti,LDCs
+Eritrea,2021,4.38,Eritrea,LDCs
+Ethiopia,2021,126.84,Äthiopien,LDCs
+Kenya,2021,102.38,Kenia,LMICs
+Madagascar,2021,45.81,Madagaskar,LDCs
+Malawi,2021,58.22,Malawi,LDCs
+Mauritius,2021,2.99,Mauritius,UMICs
+Mozambique,2021,80.15,Mozambik,LDCs
+Rwanda,2021,60.84,Ruanda,LDCs
+Somalia,2021,85.68,Somalia,LDCs
+South Sudan,2021,53.93,Südsudan,LDCs
+Sudan,2021,126.89,Sudan,LDCs
+Tanzania,2021,116.86,Tanzania,LDCs
+Uganda,2021,109.13,Uganda,LDCs
+Zambia,2021,47.17,Sambia,LDCs
+Zimbabwe,2021,46.76,Zimbabwe,Other LICs
+"Eastern Africa, regional",2021,12.24,"Ostafrika, regional",Part I unallocated by income
+Angola,2021,25.38,Angola,LDCs
+Cameroon,2021,53.25,Kamerun,LMICs
+Central African Republic,2021,34.4,Zentralafrikanische Republik,LDCs
+Chad,2021,34.35,Tschad,LDCs
+Congo,2021,23.7,Kongo,LMICs
+Democratic Republic of the Congo,2021,125.97,"Kongo, Demokratische Republik",LDCs
+Equatorial Guinea,2021,1.74,Äquatorialguinea,UMICs
+Gabon,2021,2.68,Gabun,UMICs
+Sao Tome and Principe,2021,4.38,Sao Tome and Principe,LDCs
+"Middle Africa, regional",2021,2.38,"Zentralafrika, regional",Part I unallocated by income
+Botswana,2021,22.84,Botswana,UMICs
+Eswatini,2021,10.53,Eswatini,LMICs
+Lesotho,2021,11.51,Lesotho,LDCs
+Namibia,2021,11.48,Namibia,UMICs
+South Africa,2021,39.7,Südafrika,UMICs
+"Southern Africa, regional",2021,0.88,"Südliches Afrika, regional",Part I unallocated by income
+Benin,2021,28.62,Benin,LDCs
+Burkina Faso,2021,62.37,Burkina Faso,LDCs
+Cabo Verde,2021,8.67,Cabo Verde,LMICs
+Côte d'Ivoire,2021,62.47,Côte d'Ivoire,LMICs
+Gambia,2021,14.95,Gambia,LDCs
+Ghana,2021,43.82,Ghana,LMICs
+Guinea,2021,36.29,Guinea,LDCs
+Guinea-Bissau,2021,10.57,Guinea-Bissau,LDCs
+Liberia,2021,33.47,Liberia,LDCs
+Mali,2021,42.8,Mali,LDCs
+Mauritania,2021,19.13,Mauritanien,LDCs
+Niger,2021,69.43,Niger,LDCs
+Nigeria,2021,137.5,Nigeria,LMICs
+Saint Helena,2021,0.13,Saint Helena,UMICs
+Senegal,2021,49.47,Senegal,LDCs
+Sierra Leone,2021,28.07,Sierra Leone,LDCs
+Togo,2021,16.05,Togo,LDCs
+"Western Africa, regional",2021,11.03,"Westafrika, regional",Part I unallocated by income
+"South of Sahara, regional",2021,159.77,"Südlich der Sahara, regional",Part I unallocated by income
+"Africa, regional",2021,210.79,"Afrika, regional",Part I unallocated by income
+Antigua and Barbuda,2021,0.98,Antigua and Barbuda,UMICs
+Cuba,2021,52.19,Kuba,UMICs
+Dominica,2021,2.45,Dominica,UMICs
+Dominican Republic,2021,9.51,Dominikanische Republik,UMICs
+Grenada,2021,2.12,Grenada,UMICs
+Haiti,2021,33.85,Haiti,LDCs
+Jamaica,2021,4.01,Jamaika,UMICs
+Montserrat,2021,0.4,Montserrat,UMICs
+Saint Lucia,2021,8.57,Saint Lucia,UMICs
+Saint Vincent and the Grenadines,2021,3.75,Saint Vincent and the Grenadines,UMICs
+"Caribbean, regional",2021,9.79,"Karibik, regional",Part I unallocated by income
+Belize,2021,10.99,Belize,UMICs
+Costa Rica,2021,4.65,Costa Rica,UMICs
+El Salvador,2021,4.73,El Salvador,LMICs
+Guatemala,2021,12.8,Guatemala,LMICs
+Honduras,2021,17.2,Honduras,LMICs
+Mexico,2021,15.1,Mexiko,UMICs
+Nicaragua,2021,14.56,Nicaragua,LMICs
+Panama,2021,3.82,Panama,UMICs
+"Central America, regional",2021,4.83,"Zentralamerika, regional",Part I unallocated by income
+"Caribbean & Central America, regional",2021,7.94,"Karibik und Zentralamerika, regional",Part I unallocated by income
+Argentina,2021,10.92,Argentinien,UMICs
+Bolivia,2021,12.08,Bolivien,LMICs
+Brazil,2021,43.45,Brasilien,UMICs
+Colombia,2021,24.05,Kolumbien,UMICs
+Ecuador,2021,15.49,Ecuador,UMICs
+Guyana,2021,3.04,Guyana,UMICs
+Paraguay,2021,6.84,Paraguay,UMICs
+Peru,2021,16.35,Peru,UMICs
+Suriname,2021,1.12,Suriname,UMICs
+Venezuela,2021,9.92,Venezuela,UMICs
+"South America, regional",2021,83.03,"Südamerika, regional",Part I unallocated by income
+"America, regional",2021,20.58,"Amerika, regional",Part I unallocated by income
+Cambodia,2021,28.37,Kambodscha,LDCs
+China (People's Republic of),2021,36.76,China,UMICs
+Democratic People's Republic of Korea,2021,0.91,"Korea, Demokratische Volksrepublik",Other LICs
+Indonesia,2021,46.64,Indonesien,LMICs
+Lao People's Democratic Republic,2021,23.75,Laos,LDCs
+Malaysia,2021,2.34,Malaysien,UMICs
+Mongolia,2021,33.81,Mongolei,LMICs
+Philippines,2021,25.05,Philippinen,LMICs
+Thailand,2021,17.22,Thailand,UMICs
+Timor-Leste,2021,19.94,Timor-Leste,LDCs
+Viet Nam,2021,35.35,Vietnam,LMICs
+"Far East Asia, regional",2021,32.16,"Ostasien, regional",Part I unallocated by income
+Afghanistan,2021,112.97,Afghanistan,LDCs
+Armenia,2021,22.42,Armenien,LMICs
+Azerbaijan,2021,7.23,Azerbaidschan,UMICs
+Bangladesh,2021,102.91,Bangladesch,LDCs
+Bhutan,2021,4.11,Bhutan,LDCs
+Georgia,2021,56.82,Georgien,LMICs
+India,2021,99.58,Indien,LMICs
+Kazakhstan,2021,3.13,Kazakhstan,UMICs
+Kyrgyzstan,2021,22.9,Kyrgyzstan,LMICs
+Maldives,2021,14.21,Malediven,UMICs
+Myanmar,2021,35.7,Myanmar,LDCs
+Nepal,2021,62.11,Nepal,LDCs
+Pakistan,2021,93.14,Pakistan,LMICs
+Sri Lanka,2021,23.02,Sri Lanka,LMICs
+Tajikistan,2021,26.26,Tajikistan,LMICs
+Turkmenistan,2021,16.15,Turkmenistan,UMICs
+Uzbekistan,2021,35.91,Uzbekistan,LMICs
+"Central Asia, regional",2021,12.06,"Zentralasien, regional",Part I unallocated by income
+"South Asia, regional",2021,19.32,"Südasien, regional",Part I unallocated by income
+"South & Central Asia, regional",2021,0.8,"Süd- und Zentralasien, regional",Part I unallocated by income
+Iran,2021,8.43,Iran,UMICs
+Iraq,2021,41.33,Irak,UMICs
+Jordan,2021,133.3,Jordanien,LMICs
+Lebanon,2021,36.04,Libanon,UMICs
+Syrian Arab Republic,2021,108.48,Syrien,LMICs
+West Bank and Gaza Strip,2021,54.71,Palästinensische Gebiete,LMICs
+Yemen,2021,65.45,Jemen,LDCs
+"Middle East, regional",2021,14.89,"Naher- und Mittlerer Osten, regional",Part I unallocated by income
+"Asia, regional",2021,20.05,"Asien, regional",Part I unallocated by income
+Fiji,2021,11.33,Fidschi,UMICs
+Papua New Guinea,2021,32.59,Papua New Guinea,LMICs
+Solomon Islands,2021,3.99,Salomonen,LDCs
+Vanuatu,2021,2.93,Vanuatu,LMICs
+"Melanesia, regional",2021,0.09,"Melanesien, regional",Part I unallocated by income
+Kiribati,2021,0.48,Kiribati,LDCs
+Marshall Islands,2021,1.0,Marshallinseln,UMICs
+Micronesia,2021,10.85,"Mikronesien, regional",LMICs
+Nauru,2021,0.01,Nauru,UMICs
+Palau,2021,0.23,Palau,UMICs
+Cook Islands,2021,0.0,Cookinseln,UMICs
+Niue,2021,0.62,Niue,UMICs
+Samoa,2021,1.01,Samoa,UMICs
+Tokelau,2021,0.02,Tokelau,LMICs
+Tonga,2021,3.5,Tonga,UMICs
+Tuvalu,2021,2.21,Tuvalu,LDCs
+Wallis and Futuna,2021,0.15,Wallis and Futuna,UMICs
+"Oceania, regional",2021,13.04,"Ozeanien, regional",Part I unallocated by income
+"Developing countries, unspecified",2021,1774.04,Nicht aufteilbar,Part I unallocated by income
