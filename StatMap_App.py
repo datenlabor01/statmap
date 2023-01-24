@@ -270,7 +270,7 @@ app.layout = dbc.Container([
 
     dbc.Row([
         dash_table.DataTable(id="my_table",
-        filter_action="native", sort_action="native", page_size= 30, style_cell={'textAlign': 'left'},
+        filter_action="native", sort_action="native", page_size= 30, style_cell={'textAlign': 'left', "whiteSpace": "normal", "height": "auto"},
          style_header={'backgroundColor': 'rgb(210, 210, 210)', 'color': 'black', 'fontWeight': 'bold'}, 
          export_format= "xlsx"),
          ]),
